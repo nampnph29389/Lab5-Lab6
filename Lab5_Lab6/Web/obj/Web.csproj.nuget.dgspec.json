@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/apple/Downloads/macbook pro /FPT Polytechnic/C#/C#5/Lab5_Lab6/Web/Web.csproj": {}
+    "C:\\Users\\NITRO 5\\Desktop\\C5\\Lab5-Lab6\\Lab5_Lab6\\Web\\Web.csproj": {}
   },
   "projects": {
-    "/Users/apple/Downloads/macbook pro /FPT Polytechnic/C#/C#5/Lab5_Lab6/Web/Web.csproj": {
+    "C:\\Users\\NITRO 5\\Desktop\\C5\\Lab5-Lab6\\Lab5_Lab6\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/apple/Downloads/macbook pro /FPT Polytechnic/C#/C#5/Lab5_Lab6/Web/Web.csproj",
+        "projectUniqueName": "C:\\Users\\NITRO 5\\Desktop\\C5\\Lab5-Lab6\\Lab5_Lab6\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "/Users/apple/Downloads/macbook pro /FPT Polytechnic/C#/C#5/Lab5_Lab6/Web/Web.csproj",
-        "packagesPath": "/Users/apple/.nuget/packages/",
-        "outputPath": "/Users/apple/Downloads/macbook pro /FPT Polytechnic/C#/C#5/Lab5_Lab6/Web/obj/",
+        "projectPath": "C:\\Users\\NITRO 5\\Desktop\\C5\\Lab5-Lab6\\Lab5_Lab6\\Web\\Web.csproj",
+        "packagesPath": "C:\\Users\\NITRO 5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NITRO 5\\Desktop\\C5\\Lab5-Lab6\\Lab5_Lab6\\Web\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\C#\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/apple/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\NITRO 5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.315/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,6 +68,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[7.0.18, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -79,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

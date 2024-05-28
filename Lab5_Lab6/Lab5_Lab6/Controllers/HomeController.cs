@@ -36,7 +36,26 @@ namespace Lab5_Lab6.Controllers
         {
             return Ok(list);
         }
-    }
+
+        //Bai 4
+        [Route("Bai-4[controller]")]
+        
+            [HttpPost]
+            public ActionResult<double> CalculateArea(double a, double b, double c)
+            {
+          
+                if (a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a)
+                {
+                    return BadRequest("Các cạnh không hợp lệ");
+                }
+
+                double s = (a + b + c) / 2;
+                double area = Math.Sqrt(s * (s - a) * (s - b) * (s - c));
+
+                return Ok($"Diện tích là : {Math.Round(area, 2)}");
+            }
+        }
+    
     public class Compounding
     {
         public int sothang { get; set; }

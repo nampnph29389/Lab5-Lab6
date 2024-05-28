@@ -469,25 +469,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/apple/.nuget/packages/": {}
+    "C:\\Users\\NITRO 5\\.nuget\\packages\\": {},
+    "E:\\C#\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/apple/Downloads/macbook pro /FPT Polytechnic/C#/C#5/Lab5_Lab6/Lab5_Lab6/Lab5_Lab6.csproj",
+      "projectUniqueName": "C:\\Users\\NITRO 5\\Desktop\\C5\\Lab5-Lab6\\Lab5_Lab6\\Lab5_Lab6\\Lab5_Lab6.csproj",
       "projectName": "Lab5_Lab6",
-      "projectPath": "/Users/apple/Downloads/macbook pro /FPT Polytechnic/C#/C#5/Lab5_Lab6/Lab5_Lab6/Lab5_Lab6.csproj",
-      "packagesPath": "/Users/apple/.nuget/packages/",
-      "outputPath": "/Users/apple/Downloads/macbook pro /FPT Polytechnic/C#/C#5/Lab5_Lab6/Lab5_Lab6/obj/",
+      "projectPath": "C:\\Users\\NITRO 5\\Desktop\\C5\\Lab5-Lab6\\Lab5_Lab6\\Lab5_Lab6\\Lab5_Lab6.csproj",
+      "packagesPath": "C:\\Users\\NITRO 5\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NITRO 5\\Desktop\\C5\\Lab5-Lab6\\Lab5_Lab6\\Lab5_Lab6\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "E:\\C#\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/apple/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\NITRO 5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.315/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -500,6 +506,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -534,7 +545,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }
