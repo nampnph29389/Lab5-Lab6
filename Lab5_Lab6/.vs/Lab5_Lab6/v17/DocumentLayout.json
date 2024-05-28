@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\NITRO 5\\Desktop\\C5\\Lab5-Lab6\\Lab5_Lab6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A43D69A4-AE2C-4834-A9C0-F4E8BF7AB1A8}|Lab5_Lab6\\Lab5_Lab6.csproj|C:\\Users\\NITRO 5\\Desktop\\C5\\Lab5-Lab6\\Lab5_Lab6\\lab5_lab6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A43D69A4-AE2C-4834-A9C0-F4E8BF7AB1A8}|Lab5_Lab6\\Lab5_Lab6.csproj|c:\\users\\nitro 5\\desktop\\c5\\lab5-lab6\\lab5_lab6\\lab5_lab6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A43D69A4-AE2C-4834-A9C0-F4E8BF7AB1A8}|Lab5_Lab6\\Lab5_Lab6.csproj|solutionrelative:lab5_lab6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,8 +54,7 @@
               "RelativeToolTip": "Web\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T08:39:01.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T08:39:01.242Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "Web\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-28T08:39:01.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T08:39:01.147Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "Web\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-28T08:39:00.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T08:39:00.659Z"
             },
             {
               "$type": "Document",
@@ -102,7 +99,7 @@
               "RelativeDocumentMoniker": "Lab5_Lab6\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\NITRO 5\\Desktop\\C5\\Lab5-Lab6\\Lab5_Lab6\\Lab5_Lab6\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Lab5_Lab6\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAADwvzIAAAAAAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAADwvygAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T08:22:47.126Z",
               "EditorCaption": ""
