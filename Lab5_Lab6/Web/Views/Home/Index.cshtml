@@ -2,8 +2,27 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
 
+@model IEnumerable<Web.Controllers.Compounding>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">@Html.DisplayNameFor(model => model.sothang)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.sotien)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.tylelai)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.lai)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+            {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.sothang)</td>
+                <td>@Html.DisplayFor(modelItem => item.sotien)</td>
+                <td>@Html.DisplayFor(modelItem => item.tylelai)</td>
+                <td>@Html.DisplayFor(modelItem => item.lai)</td>
+            </tr>
+            }
+    </tbody>
+</table>
